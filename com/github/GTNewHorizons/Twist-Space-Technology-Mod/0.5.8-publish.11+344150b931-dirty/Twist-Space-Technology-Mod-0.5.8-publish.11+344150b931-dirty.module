@@ -1,0 +1,365 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.GTNewHorizons",
+    "module": "Twist-Space-Technology-Mod",
+    "version": "0.5.8-publish.11+344150b931-dirty",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "com.gtnewhorizons.retrofuturagradle.obfuscation": "mcp",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "GT5-Unofficial",
+          "version": {
+            "requires": "5.09.48.66"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "GT5-Unofficial",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Twist-Space-Technology-Mod-0.5.8-publish.11+344150b931-dirty-dev.jar",
+          "url": "Twist-Space-Technology-Mod-0.5.8-publish.11+344150b931-dirty-dev.jar",
+          "size": 17943871,
+          "sha512": "25fb5cf93e03e3d31f25e5e81fa0661e974318bf85c3a63c4dfcaceab7556070c5b2bd17547e9fdaa441c77e370092a12931fa9762924040e5f42ef4855af029",
+          "sha256": "b629c91700db2dcdc5b95bbbdf9aabb328be86ab6131f42a5d28605223a5db1e",
+          "sha1": "cf69f6fc9b6f180e7d965cb7e07d48c72c53c9ba",
+          "md5": "fb4b48ba9a385007a6d314cda7853bed"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "com.gtnewhorizons.retrofuturagradle.obfuscation": "mcp",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "AE2FluidCraft-Rework",
+          "version": {
+            "requires": "1.3.7-gtnh"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "AE2FluidCraft-Rework",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "GTNH-Intergalactic",
+          "version": {
+            "requires": "1.3.5"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "GTNH-Intergalactic",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "NewHorizonsCoreMod",
+          "version": {
+            "requires": "2.5.16"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "NewHorizonsCoreMod",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "Avaritia",
+          "version": {
+            "requires": "1.49"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "Avaritia",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "Avaritiaddons",
+          "version": {
+            "requires": "1.7.1-GTNH"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "Avaritiaddons",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "Eternal-Singularity",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "Eternal-Singularity",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "Universal-Singularities",
+          "version": {
+            "requires": "8.7.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "Universal-Singularities",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "MagicBees",
+          "version": {
+            "requires": "2.8.1-GTNH"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "MagicBees",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "thaumcraft",
+          "module": "Thaumcraft",
+          "version": {
+            "requires": "1.7.10-4.2.3.5"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "Thaumcraft",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "ThaumicEnergistics",
+          "version": {
+            "requires": "1.6.10-GTNH"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "ThaumicEnergistics",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "Botania",
+          "version": {
+            "requires": "1.11.3-GTNH"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "Botania",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "supersolarpanels",
+          "version": {
+            "requires": "1.1.3"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "supersolarpanels",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "curse.maven",
+          "module": "advsolar-362768",
+          "version": {
+            "requires": "2885953"
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "Electro-Magic-Tools",
+          "version": {
+            "requires": "1.5.5"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "Electro-Magic-Tools",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "WitcheryExtras",
+          "version": {
+            "requires": "1.2.2"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "WitcheryExtras",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        },
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "GT5-Unofficial",
+          "version": {
+            "requires": "5.09.48.66"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "GT5-Unofficial",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "dev"
+            }
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.github.GTNewHorizons",
+          "module": "GTNHLib",
+          "version": {
+            "requires": "0.2.11"
+          },
+          "reason": "fixes duplicate mod errors in java 17 configurations using old gtnhlib"
+        }
+      ],
+      "files": [
+        {
+          "name": "Twist-Space-Technology-Mod-0.5.8-publish.11+344150b931-dirty-dev.jar",
+          "url": "Twist-Space-Technology-Mod-0.5.8-publish.11+344150b931-dirty-dev.jar",
+          "size": 17943871,
+          "sha512": "25fb5cf93e03e3d31f25e5e81fa0661e974318bf85c3a63c4dfcaceab7556070c5b2bd17547e9fdaa441c77e370092a12931fa9762924040e5f42ef4855af029",
+          "sha256": "b629c91700db2dcdc5b95bbbdf9aabb328be86ab6131f42a5d28605223a5db1e",
+          "sha1": "cf69f6fc9b6f180e7d965cb7e07d48c72c53c9ba",
+          "md5": "fb4b48ba9a385007a6d314cda7853bed"
+        }
+      ]
+    },
+    {
+      "name": "reobfElements",
+      "attributes": {
+        "com.gtnewhorizons.retrofuturagradle.obfuscation": "srg",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Twist-Space-Technology-Mod-0.5.8-publish.11+344150b931-dirty.jar",
+          "url": "Twist-Space-Technology-Mod-0.5.8-publish.11+344150b931-dirty.jar",
+          "size": 17946488,
+          "sha512": "b2a0705af5869dd5da67a4f5c9315a623bc158914e007848885cc0117f691affd154f568ee3a68d077576bec0479d2a9b80f10a2106eba815415f4b5628d4cf9",
+          "sha256": "11f5c18e46bed167bae975d09ba74aac9b3fd1db9d9e04302c23f4ce4922b43d",
+          "sha1": "32d5d1d28a259282c3e697d6a64fbc3282388603",
+          "md5": "eb9c95754717c5fae6bc8dbae3e1bf88"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "com.gtnewhorizons.retrofuturagradle.obfuscation": "mcp",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Twist-Space-Technology-Mod-0.5.8-publish.11+344150b931-dirty-sources.jar",
+          "url": "Twist-Space-Technology-Mod-0.5.8-publish.11+344150b931-dirty-sources.jar",
+          "size": 17328151,
+          "sha512": "4852cc6913d673561a696291b00610fe971e24b726bdac7c17d4f1bad5ecf680cec29bdff688a5f17b5c8d1949890707a4f5ab027ddf9e8edc87190568794035",
+          "sha256": "385fd01f0a06025408e0c3e4b6501b43b6e8082a827a112fd11abc6e25951717",
+          "sha1": "12db3ebadd5d84dcaa9bc0a8b4cc7071effa2b87",
+          "md5": "309c3539a3d7fa75b12736229b711832"
+        }
+      ]
+    }
+  ]
+}
